@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml version="1.0" ?><manifest>
+
+  <include name="base-l-aosp.xml"/>
+
+  <default remote="caf" revision="refs/tags/android-5.1.0_r1" sync-j="4"/>
+
   <remote name="fdo" fetch="http://anongit.freedesktop.org/git" />
   <project path="external/drm" name="mesa/drm" revision="e2acca4e40c87b00af75a5ffedafc26a099b657c" remote="fdo"/>
 
